@@ -66,7 +66,6 @@ export default function Sidebar() {
 
   return (
     <>
-      {/* AppBar only on Mobile to show menu button */}
       {isMobile && (
         <AppBar position="fixed" sx={{ zIndex: theme.zIndex.drawer + 1 }}>
           <Toolbar >
@@ -87,7 +86,6 @@ export default function Sidebar() {
 
       {/* Sidebar */}
       <Box  component="nav" sx={{ width: { sm: drawerWidth }, flexShrink: { sm: 0 } }}>
-        {/* Mobile Drawer */}
         <Drawer
           variant="temporary"
           open={mobileOpen}

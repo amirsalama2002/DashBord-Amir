@@ -13,7 +13,6 @@ function App() {
         <Sidebar />
         <Routes>
           <Route path="/" element={<Dashboard />} />
-          {/* ممكن نضيف صفحات أخرى زي /user /product لاحقًا */}
         </Routes>
       </Box>
     </Router>
