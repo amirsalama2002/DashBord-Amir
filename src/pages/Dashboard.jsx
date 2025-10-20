@@ -15,7 +15,7 @@ export default function Dashboard() {
     <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
       <Toolbar />
       <Typography variant="h4" gutterBottom>
-        Hi, Welcome Amir Salama 👋
+        Hi, Welcome Amir Salama Hassan 👋
       </Typography>
 
       <Grid container spacing={3}>
